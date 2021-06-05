@@ -72,9 +72,7 @@ const UserLayout = ({ en = false }) => {
         !isLoading && !users.length && <h2 className="title has-text-centered">{ notFound }</h2>
       }
       {
-        !isLoading && users.length && <ListUsers users={users} />
-      }
-      {
+        !isLoading && users.length > 0 && <ListUsers users={users} />
       }
       <Modal show={ isModalOpen } onClose={() => setIsModalOpen(false)}>
         <Modal.Card>
