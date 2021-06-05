@@ -8,10 +8,15 @@ Is an app with MERN structure:
 ## Runing
 
 cd backend
+
 npm install
+
 npm start
 
-Then, in another terminal
+### Then, in another terminal
+
 cd frontend
+
 npm install
+
 npm start
