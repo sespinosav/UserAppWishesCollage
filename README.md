@@ -1,4 +1,4 @@
-## USER APP WISHES COLLEGGE
+## USER APP WISHES COLLAGE
 
 Is an app with MERN structure:
   - Backend in Node
